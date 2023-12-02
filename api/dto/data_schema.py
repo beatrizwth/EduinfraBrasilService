@@ -1,0 +1,20 @@
+from pydantic import BaseModel
+
+
+class DataSchema(BaseModel):
+    SG_UF: str
+    IN_AGUA_POTAVEL: int
+    IN_AGUA_REDE_PUBLICA: int
+    IN_AGUA_POCO_ARTESIANO: int
+    IN_ENERGIA_REDE_PUBLICA: int
+    IN_ENERGIA_GERADOR: int
+    IN_ENERGIA_INEXISTENTE: int
+    IN_ESGOTO_REDE_PUBLICA: int
+    IN_ESGOTO_FOSSA_SEPTICA: int
+    IN_ESGOTO_INEXISTENTE: int
+    IN_LIXO_SERVICO_COLETA: int
+    IN_LIXO_QUEIMA: int
+    IN_LIXO_ENTERRA: int
+    IN_PATIO_COBERTO: int
+    IN_QUADRA_ESPORTES: int
+    IN_LABORATORIO_CIENCIAS: int
